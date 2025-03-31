@@ -1,0 +1,6 @@
+"visit_id","patient_id","visit_date","diagnosis","other_fields","alim_date","medication_name","first_visit"
+"V001","P001","2023-01-15","Depression","Initial assessment","2025-03-28","Sertraline",True
+"V002","P001","2023-02-20","Depression","Follow-up","2025-03-28","Sertraline",False
+"V006","P005","2023-02-25","Depression","Patient improved","2025-03-28","Fluoxetine",True
+"V010","P009","2023-04-05","Depression","Routine check","2025-03-28","Sertraline",True
+"V013","P002","2023-05-20","Depression","Follow-up","2025-03-28","Sertraline",False

@@ -1,0 +1,3 @@
+"visit_id","patient_id","visit_date","diagnosis","other_fields","alim_date","medication_name","first_visit"
+"V004","P003","2023-01-10","Bipolar Disorder","Stabilizing dose","2025-03-28","Lithium",True
+"V012","P003","2023-05-10","Bipolar Disorder","Medication review","2025-03-28","Lithium",False

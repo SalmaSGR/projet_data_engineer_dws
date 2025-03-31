@@ -1,0 +1,8 @@
+query1:
+	SELECT * FROM silver_visits WHERE patient_id = 'P003'
+
+query2:
+	select * from silver_visits where diagnosis = 'Depression'
+
+query3:
+	select DATE_TRUNC('month', visit_date) AS month, COUNT(*) AS visit_count from silver_visits GROUP BY month ORDER BY month;
