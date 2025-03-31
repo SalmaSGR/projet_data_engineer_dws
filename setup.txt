@@ -1,0 +1,27 @@
+Configurer la base de données PostgreSQL
+	Installer PostgreSQL
+
+		Pour Windows :
+
+			Téléchargez la version PostgreSQL adaptée à windows depuis le site officiel
+
+			Exécutez l'installateur et suivez les instructions de configuration
+
+			Pendant l'installation, vous devrez définir un mot de passe pour l'utilisateur superutilisateur (par défaut : postgres).
+
+			Après l'installation, PostgreSQL devrait être opérationnel et prêt à être utilisé
+
+			Vous pouvez utiliser l'interface graphique pgAdmin pour simplifier la gestion de votre base de données
+
+
+Configurer la base de données supabase
+Prérequis:
+	- installer: dockerdocker
+	- installer: 
+		Sur Windows :
+			1- Téléchargez le fichier .exe à partir de la page de releases GitHub de Supabase CLI
+			2- Ajouter le dossier qui contient supabase dans le path dans variables d'envirenement
+			3- Ouvrir la ligne de commande ou powershell
+			4- Créer un dossier 
+			5- Accéder au dossier que vous avez crée et taper la commande supabase init, puis taper supabase start et vous aurez le lien de votre supabase
+			
