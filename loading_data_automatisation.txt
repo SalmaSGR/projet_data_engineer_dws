@@ -1,0 +1,16 @@
+Pour que mon ETL soit autonome, j'ai automatisé le processus de chargement des données en utilisant le Planificateur de tâches Windows. Ce dernier exécute le chargement des données à une fréquence hebdomadaire, chaque dimanche, en supposant que les données sont accessibles chaque dimanche. Cette automatisation garantit que le processus de chargement se déroule sans intervention manuelle et selon un calendrier régulier, ce qui assure la mise à jour continue des données.
+
+Fonctionnement :
+L'ETL d'ingestion s'exécute en premier, car c'est la base de disposition des données. Ensuite, l'ETL de modélisation se lance, car il dépend de la couche raw pour récupérer les données. Enfin, l'ETL d'exposition tourne pour charger les données de la base Silver vers la base Gold sur Supabase.
+
+Etapes à suivre:
+
+	Ouvrir le Planificateur de tâches
+	Dans la fenêtre du Planificateur de tâches, clique sur "Créer une tâche" dans le panneau de droite
+	Donne un nom à ta tâche dans la section "Nom"
+	Clique sur l'onglet "Déclencheurs" et clique sur "Nouveau…"
+	Choisis quand tu veux que la tâche soit exécutée 
+	Clique sur l'onglet "Actions" et clique sur "Nouveau…"
+	Dans "Action", sélectionne "Démarrer un programme"
+	Selectionner ton fichier
+	Clique sur OK
